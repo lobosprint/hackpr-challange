@@ -1,0 +1,1 @@
+const Redux = require('redux');
