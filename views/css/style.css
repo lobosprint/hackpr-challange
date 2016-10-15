@@ -1,0 +1,10 @@
+.logo {
+    margin: 5px;
+    border-radius: 10px;
+    border-bottom: 1px solid #c4c4c4;
+    border-left: 1px solid #c4c4c4;
+}
+
+.nav-dropdown {
+    margin-top: 20%;
+}

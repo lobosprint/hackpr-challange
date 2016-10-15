@@ -1,0 +1,144 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="UTF-8">
+ 	<title>Turno pasado</title>
+ 	<link rel="stylesheet" href="./css/vendor/font-awesome.min.css">
+ 	<link rel="stylesheet" href="./css/vendor/bootstrap.min.css">
+ 	<link rel="stylesheet" href="./css/style.css">
+ 	<script src="./js/vendor/angularjs.js" type="text/javascript"></script>
+ 	<script src="./js/appjs.js" type="text/javascript"></script>
+ 	<style>
+ 		th {
+ 			background-color: #5bc0de;
+ 			color: white;
+ 		}
+ 	</style>
+ </head>
+
+ <body>
+
+ 	<!-- This is the content of the page -->
+ 	<div class="container">
+ 		<!-- This is the header with the nav -->
+ 		<header>
+ 			<nav class="navbar navbar-default">
+ 				<div class="row">
+ 					<div class="col-xs-2">
+ 						<img src="./images/logo.jpg" class="img-responsive logo">
+ 					</div>
+
+ 					<div class="col-xs-4">
+ 						<div class="nav-dropdown" ng-app="navTurnoAdmin" ng-controller="myCtrl">
+ 							<span class="btn btn-info">
+ 								Historial
+ 							</span>
+ 						</div>
+ 					</div>
+
+ 					<div class="col-xs-4">
+ 						<div class="nav-dropdown" ng-app="navPenaltyAdmin" ng-controller="myCtrl">
+ 							<span class="btn btn-info">
+ 								Pendiente
+ 							</span>
+ 						</div>
+ 					</div>
+ 				</div>
+
+ 			</nav>
+ 		</header>
+ 		<!-- Finish of header and nav -->
+ 		<div class="container">
+
+ 			<table class="table table-bordered" >
+ 				<thead class="thead-inverse" >
+ 					<tr>
+ 						<th colspan="6">
+ 							<p align="center"> Turno pasado</p>
+ 						</th>
+ 					</tr>
+ 				</thead>
+ 				<tbody>
+ 					<tr>
+ 						
+ 						<td colspan= "3"> <b> Turno de:  </b></td>
+ 						<td colspan= "3"> Pepito Perez</td>
+
+ 					</tr>
+ 					<tr>
+ 						
+ 						<td colspan= "3"> <b> Para:</b></td>
+ 						<td colspan= "3"> ICOM</td>
+
+ 					</tr>
+ 					
+ 					<tr>
+ 						
+ 						<td colspan= "3"> <b> Con:</b></td>
+ 						<td colspan= "3"> Manuel Rodriguez</td>
+
+ 					</tr>
+
+ 					<tr>
+ 						
+ 						<td colspan= "1"> <b> Comenzó:</b></td>
+ 						<td colspan= "2"> hh:mm</td>
+ 						<td colspan= "1"> <b> Terminó:</b></td>
+ 						<td colspan= "2"> hh:mm</td>
+ 						
+
+
+ 					</tr>
+ 					<tr>
+ 						<th colspan= "6">
+ 							<p align="center">Notas del Turno pasado</p>
+ 						</th>
+ 					</tr>
+ 					<tr>
+ 						<th colspan= "1">
+ 								<p align="center">ID Comentario</p>
+ 						</th>
+ 						<th colspan= "5">
+ 								<p align="center">Descripción</p>
+ 						</th>
+ 					</tr>
+
+					<tr>
+ 						<td colspan= "1">
+ 								<p align="center">1</p>
+ 						</td>
+ 						<td colspan= "5">
+ 								<p align="left">Pepito trajo carta de Registraduría y será archviada.</p>
+ 						</td>
+ 					</tr>
+ 					<tr>
+ 						<td colspan= "1">
+ 								<p align="center">2</p>
+ 						</td>
+ 						<td colspan= "5">
+ 								<p align="left">Pepito reclamó nota de semestre pasado</p>
+ 						</td>
+ 					</tr>
+ 					<tr>
+ 						<td colspan= "1">
+ 								<p align="center">3</p>
+ 						</td>
+ 						<td colspan= "5">
+ 								<p align="left">Se le hará evaluación académica en próxima cita.</p>
+ 						</td>
+ 					</tr>
+ 					
+
+ 				</div>
+
+
+ 			</tbody>
+ 		</table>
+ 	</div>
+ </div>
+ ...
+
+ <!-- End of content -->
+
+</body>
+</html>

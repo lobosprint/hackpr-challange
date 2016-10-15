@@ -1,0 +1,119 @@
+ <!DOCTYPE html>
+ <html>
+     <head>
+        <meta charset="UTF-8">
+        <title>Penalizaciones pendientes</title>
+        <link rel="stylesheet" href="./css/vendor/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/vendor/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/vendor/angularjs.js" type="text/javascript"></script>
+        <script src="./js/appjs.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+        <!-- This is the header with the nav -->
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <img src="./images/logo.jpg" class="img-responsive logo">
+                    </div>
+
+                    <div class="col-xs-4">
+                        <div class="nav-dropdown" ng-app="navTurno" ng-controller="myCtrl">
+                            <select class="btn btn-primary" ng-model="selectedName" ng-options="x for x in names">
+                                <option value="">Turn</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-4">
+                        <div class="nav-dropdown" ng-app="navPenalty" ng-controller="myCtrl">
+                            <select class="btn btn-primary" ng-model="selectedName" ng-options="x for x in names">
+                                <option value="">Penalty</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Finish of header and nav -->
+
+        <!-- This is the content of the page -->
+        <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">Pagar penalización</div>
+                <div class="panel-body">
+                    <h1>Importe de 2$</h1>
+
+                    <form>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option>Tipo de tarjeta</option>
+                                <option>Visa</option>
+                                <option>Master Card</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="f1">Número de tarjeta</label>
+                            <input type="text" class="form-control" id="f1">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="f2">Fecha de caducidad</label>
+                            <input type="date" class="form-control" id="f2">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="f3">Código de seguridad</label>
+                            <input type="text" class="form-control" id="f3">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="f4">Titular de la tarjeta</label>
+                            <input type="text" class="form-control" id="f4">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="f5">Dirección</label>
+                            <input type="text" class="form-control" id="f5">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="f6">Ciudad</label>
+                            <input type="text" class="form-control" id="f6">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="f7">Provincia</label>
+                            <input type="text" class="form-control" id="f7">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="f8">Código Postal</label>
+                            <input type="number" class="form-control" id="f8">
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-6">
+                                  <button type="submit" class="btn btn-success  btn-lg">Pagar</button>
+                            </div>
+
+                            <div class="col-xs-6">
+                                  <button type="submit" class="btn btn-danger  btn-lg">Cancelar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End of content -->
+
+        <!-- Start of footer -->
+        <footer class="well">
+            Developed @2016
+        </footer>
+        <!-- End of footer -->
+    </body>
+</html>

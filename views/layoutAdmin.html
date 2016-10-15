@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+ <html>
+     <head>
+        <meta charset="UTF-8">
+        <title>Layout Student</title>
+        <link rel="stylesheet" href="./css/vendor/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/vendor/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/vendor/angularjs.js" type="text/javascript"></script>
+        <script src="./js/appjs.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+
+        <!-- This is the content of the page -->
+        <div class="container">
+            <!-- This is the header with the nav -->
+            <header>
+                <nav class="navbar navbar-default">
+                    <div class="row">
+                        <div class="col-xs-2">
+                            <img src="./images/logo.jpg" class="img-responsive logo">
+                        </div>
+
+                        <div class="col-xs-4">
+                            <div class="nav-dropdown" ng-app="navTurnoAdmin" ng-controller="myCtrl">
+                                <span class="btn btn-info">
+                                    Historial
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-4">
+                            <div class="nav-dropdown" ng-app="navPenaltyAdmin" ng-controller="myCtrl">
+                                <span class="btn btn-info">
+                                    Pendiente
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <!-- Finish of header and nav -->
+
+            ...
+
+            <!-- Start of footer -->
+            <footer class="well">
+                Developed @2016
+            </footer>
+            <!-- End of footer -->
+        </div>
+        <!-- End of content -->
+
+    </body>
+</html>
