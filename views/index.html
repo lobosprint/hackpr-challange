@@ -6,25 +6,85 @@
         <link rel="stylesheet" href="./css/vendor/font-awesome.min.css">
         <link rel="stylesheet" href="./css/vendor/bootstrap.min.css">
         <link rel="stylesheet" href="./css/main.css">
-        <script src="./js/vendor/angularjs.js" type="text/javascript"></script>
         <script src="./js/appjs.js" type="text/javascript"></script>
+        <script src="http://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </head>
 
     <body class="container">
-        <div class="chosee btn">
+        <!-- Chosee if you are from PR -->
+        <div class="chosee btn hidden">
             <span class="label-chosee">Estoy pensando mudarme a Puerto Rico</span>
             <img src="./images/chosee-left.png" class="img-responsive">
         </div>
 
-        <div class="chosee btn hidden">
+        <div class="chosee btn ">
             <span class="label-chosee">Estoy pensando mudarme desde Puerto Rico</span>
             <img src="./images/chosee-right.png" class="img-responsive">
         </div>
+        <!-- End Chosee -->
 
-        <!-- This is the content of the page -->
-        <div class="container">
+        <!-- Select where you like to compare -->
+        <div class="row margin-top-sm">
+            <div class="col-xs-12">
+                <div class="label">
+                    Actualmente vivo en
+                </div>
+            </div>
         </div>
-        <!-- End of content -->
+
+        <div class="row margin-top-xs">
+            <div class="col-xs-12">
+                <input style="width:100%;" type="text" placeholder="MADRID">
+            </div>
+        </div>
+        <!-- End select -->
+
+        <!-- User money -->
+        <div class="row margin-top-sm">
+            <div class="col-xs-12">
+                <div class="label">
+                    Actualmente mi sueldo es
+                </div>
+            </div>
+        </div>
+
+        <form class="form-inline margin-top-xs">
+            <div class="row">
+                <div class="col-xs-8">
+                    <input type="range" min="300" max="500">
+                </div>
+
+                <div class="col-xs-4">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-addon">$</div>
+                            <input type="number" class="form-control" placeholder="Amount" value="40000">
+                            <div class="input-group-addon">.00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <!-- End user money -->
+
+        <!-- Select variables -->
+        <div class="row margin-top-sm">
+            <div class="col-xs-12">
+                <button class="btn filter-elements" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <span class="glyphicon glyphicon-tags" aria-hidden="true"></span>
+                    Filtrar Elementos
+                </button>
+
+                <div class="collapse" id="collapseExample">
+                  <div class="well">
+                    ...
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!-- End select variables -->
 
         <!-- Start of footer -->
         <footer class="well">
