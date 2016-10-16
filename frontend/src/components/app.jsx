@@ -12,6 +12,7 @@ const AppWrapper = React.createClass({
   render() {
     return (<div className="container-fluid">
       <div className="col-md-6 col-md-offset-3">
+        <img src="./src/images/chosee-left.png"></img>
         <h1>Cost Of living calculator</h1>
         <form onSubmit={this.handleSubmit}>
           <StateList ref="state" />

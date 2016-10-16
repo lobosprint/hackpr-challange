@@ -57,7 +57,7 @@
 	  displayName: 'AppWrapper',
 
 	  render() {
-	    return React.createElement('div', { className: 'container-fluid' }, React.createElement('div', { className: 'col-md-6 col-md-offset-3' }, React.createElement('h1', null, 'Cost Of living calculator'), React.createElement('form', { onSubmit: this.handleSubmit }, React.createElement(StateList, { ref: 'state' }), React.createElement(SalaryPicker, null)), React.createElement(CategoryPicker, null)));
+	    return React.createElement('div', { className: 'container-fluid' }, React.createElement('div', { className: 'col-md-6 col-md-offset-3' }, React.createElement('img', { src: './src/images/chosee-left.png' }), React.createElement('h1', null, 'Cost Of living calculator'), React.createElement('form', { onSubmit: this.handleSubmit }, React.createElement(StateList, { ref: 'state' }), React.createElement(SalaryPicker, null)), React.createElement(CategoryPicker, null)));
 	  },
 
 	  handleSubmit() {
@@ -23534,7 +23534,7 @@
 /* 185 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var require;var require;var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var require;var require;/*!
 	 * Select2 4.0.3
 	 * https://select2.github.io
 	 *
