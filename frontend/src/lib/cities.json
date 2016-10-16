@@ -303,5 +303,6 @@ module.exports = [
 {"ID":"55-31540-500","STATE":"Wisconsin","CITY":"Madison WI"},
 {"ID":"55-33340-580","STATE":"Wisconsin","CITY":"Milwaukee-Waukesha WI"},
 {"ID":"55-49220-550","STATE":"Wisconsin","CITY":"Marshfield WI"},
-{"ID":"56-29660-500","STATE":"Wyoming","CITY":"Laramie WY"}
+{"ID":"56-29660-500","STATE":"Wyoming","CITY":"Laramie WY"},
+{"ID":"7241980700","STATE":"Puerto Rico","CITY":"San Juan PR"}
   ]
