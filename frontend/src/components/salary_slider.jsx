@@ -37,16 +37,10 @@ const salarySlider = React.createClass({
   handleNumChange(evt) {
     const newVal = this.refs.number.value;
     this.refs.slider.value = newVal;
-    this.setState({
-      value: newVal
-    });
   },
   handleSlide(evt) {
     const newVal = this.refs.slider.value;
     this.refs.number.value = newVal;
-    this.setState({
-      value: newVal
-    });
   }
 });
 

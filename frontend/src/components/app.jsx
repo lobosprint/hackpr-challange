@@ -14,12 +14,16 @@ const AppWrapper = React.createClass({
       <div className="col-md-6 col-md-offset-3">
         <h1>Cost Of living calculator</h1>
         <form onSubmit={this.handleSubmit}>
-          <StateList />
+          <StateList ref="state" />
           <SalaryPicker />
         </form>
         <CategoryPicker />
       </div>
     </div>);
+  },
+
+  handleSubmit(){
+    debugger
   }
 });
 

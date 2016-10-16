@@ -132,6 +132,8 @@ input[type=range]:focus::-ms-fill-upper {
 /* End Styles for the input range */
 
 .filter-elements {
+    border-radius: 10px;
+    border: 1px solid #c4c4c4;
     width: 100%;
     background-color: #ee6e73;
     color: white;
@@ -140,4 +142,57 @@ input[type=range]:focus::-ms-fill-upper {
     border-radius: 10px;
     border: 1px solid #c4c4c4;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.filter-elements:hover {
+    color: whitesmoke;
+    background-color: #e97c80;
+    will-change: opacity, transform;
+    transition: all .3s ease-out;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+}
+
+.filter-elements:focus {
+    color: whitesmoke;
+}
+
+.btn-success, .btn-danger {
+    margin: 5px;
+}
+
+.change-icon {
+    position: relative;
+    top: -7px;
+    right: -7px;
+    color: #c4c4c4;
+}
+
+.more-city {
+  color: #26a69a;
+  font-size: 30px;
+  margin-left: 3%;
+  top: 6px;
+  position: relative;
+}
+
+.element-action {
+    margin-right: 5px;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid #c4c4c4;
+    background-color: #26a69a;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.element-action:hover {
+    background-color: #2bbbad;
+    color: white;
+    will-change: opacity, transform;
+    transition: all .3s ease-out;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+}
+
+.element-action:focus {
+    color: white;
+    background-color: #209085;
 }
