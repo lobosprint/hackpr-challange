@@ -1,6 +1,6 @@
-HackPR 2016
+#HackPR 2016
 
-Team: Howard Martínez, Marcos Antolí, Cristian Garzón, Khalan Jones
+Team: Howard Martínez, Marcos Antolí, Cristian Garzón, Khalan Jones.
 
 
 Instituto de Estadísticas de Puerto Rico - Challenge #2: 
