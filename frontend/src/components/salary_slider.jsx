@@ -12,25 +12,26 @@ const salarySlider = React.createClass({
     const min = 10000;
     return (
       <div className="form-group">
-          <input
-            type="number"
-            ref="number"
-            min={min}
-            max={max}
-            step="1000"
-            className="form-control"
-            onChange={this.handleNumChange}
-            defaultValue={this.state.value}
-            placeholder="Current Salary"/>
-          <input
-            type="range"
-            min={min}
-            max={max}
-            step="1000"
-            className="form-control"
-            defaultValue={this.state.value}
-            onChange={this.handleSlide}
-            ref="slider" />
+        <label>Current Salary</label>
+        <input
+          type="number"
+          ref="number"
+          min={min}
+          max={max}
+          step="1000"
+          className="form-control"
+          onChange={this.handleNumChange}
+          defaultValue={this.state.value}
+          placeholder="Current Salary"/>
+        <input
+          type="range"
+          min={min}
+          max={max}
+          step="1000"
+          className="form-control"
+          defaultValue={this.state.value}
+          onChange={this.handleSlide}
+          ref="slider" />
       </div>
     );
   },

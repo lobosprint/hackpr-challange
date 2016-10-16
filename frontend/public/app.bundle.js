@@ -21830,9 +21830,12 @@
 	    return React.createElement('div', { className: 'form-group' }, React.createElement('select', { ref: 'selectList' }, statesMarkup));
 	  },
 	  componentDidMount() {
-	    $(this.refs.selectList).select2({
+	    $(this.refs.selectList).prepend('<option value="">Choose a State</option>').select2({
 	      width: '100%'
 	    });
+	  },
+	  getValue() {
+	    this.refs.selectList.value;
 	  }
 	});
 
@@ -23824,7 +23827,7 @@
 	  render() {
 	    const max = 200000;
 	    const min = 10000;
-	    return React.createElement("div", { className: "form-group" }, React.createElement("input", {
+	    return React.createElement("div", { className: "form-group" }, React.createElement("label", null, "Current Salary"), React.createElement("input", {
 	      type: "number",
 	      ref: "number",
 	      min: min,

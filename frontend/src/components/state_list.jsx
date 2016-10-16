@@ -16,9 +16,14 @@ const stateList = React.createClass({
     return (<div className="form-group"><select ref="selectList">{statesMarkup}</select></div>);
   },
   componentDidMount() {
-    $(this.refs.selectList).select2({
-      width: '100%',
+    $(this.refs.selectList)
+    .prepend('<option value="">Choose a State</option>')
+    .select2({
+      width: '100%'
     });
+  },
+  getValue() {
+    this.refs.selectList.value;
   }
 });
 
