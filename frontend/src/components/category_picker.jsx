@@ -1,7 +1,7 @@
 const React = require('react');
 
 
-const objsToPick = ['apples', 'pumpkin', 'spices', 'tv', 'car', 'transportation'];
+const objsToPick = ['T-Bone Steak','Carne molida','Salchicha','Pollo para freír','Trozos de atún claro enlatado','Leche entera','Huevos','Margarina','Queso parmesano','Papas','Guineos','Lechuga','Pan especial','Jugo de china','Café','Azúcar','Cereal de hojuelas de maíz','Guisantes verdes','Melocotón','Toallas faciales','Detergente de lavaplatos','Aceite de canola','Comida congelada','Maíz tierno entero congelado','Papas fritas','Refresco','Alquiler apartamento','Precio de vivienda','Energía total','Teléfono','Balanceo de gomas','Gasolina','Visita a un optómetra','Visita a un doctor','Visita a un dentista','Ibuprofén','Lipitor','Hamburger','Pizza','Pollo frito','Recorte de pelo de caballero','Salón de belleza (Recorte para dama con lavado y secado','Pasta dental','Champú','Lavado en seco','Camisa de vestir de hombre','Mahones de niño','Pantalón de mujer','Reparación de electrodoméstico','Periódico','Película','Bowling','Bolas de tenis','Servicios veterinaries','Cerveza','Vino'];
 
 
 const Picker = React.createClass({

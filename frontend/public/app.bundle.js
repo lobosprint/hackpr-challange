@@ -23508,7 +23508,7 @@
 /* 207 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "b5175f6e2b2de9fc030be79b326b52ad.png";
+	module.exports = __webpack_require__.p + "f6d35d872d24a1512d42c03b3f2d6961.png";
 
 /***/ },
 /* 208 */
@@ -25363,7 +25363,7 @@
 /* 216 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var require;var require;var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var require;var require;/*!
 	 * Select2 4.0.3
 	 * https://select2.github.io
 	 *
@@ -25684,7 +25684,7 @@
 
 	const React = __webpack_require__(1);
 
-	const objsToPick = ['apples', 'pumpkin', 'spices', 'tv', 'car', 'transportation'];
+	const objsToPick = ['T-Bone Steak', 'Carne molida', 'Salchicha', 'Pollo para freír', 'Trozos de atún claro enlatado', 'Leche entera', 'Huevos', 'Margarina', 'Queso parmesano', 'Papas', 'Guineos', 'Lechuga', 'Pan especial', 'Jugo de china', 'Café', 'Azúcar', 'Cereal de hojuelas de maíz', 'Guisantes verdes', 'Melocotón', 'Toallas faciales', 'Detergente de lavaplatos', 'Aceite de canola', 'Comida congelada', 'Maíz tierno entero congelado', 'Papas fritas', 'Refresco', 'Alquiler apartamento', 'Precio de vivienda', 'Energía total', 'Teléfono', 'Balanceo de gomas', 'Gasolina', 'Visita a un optómetra', 'Visita a un doctor', 'Visita a un dentista', 'Ibuprofén', 'Lipitor', 'Hamburger', 'Pizza', 'Pollo frito', 'Recorte de pelo de caballero', 'Salón de belleza (Recorte para dama con lavado y secado', 'Pasta dental', 'Champú', 'Lavado en seco', 'Camisa de vestir de hombre', 'Mahones de niño', 'Pantalón de mujer', 'Reparación de electrodoméstico', 'Periódico', 'Película', 'Bowling', 'Bolas de tenis', 'Servicios veterinaries', 'Cerveza', 'Vino'];
 
 	const Picker = React.createClass({
 	  displayName: 'Picker',
