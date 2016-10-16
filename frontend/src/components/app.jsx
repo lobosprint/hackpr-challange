@@ -5,6 +5,7 @@ require('bootstrap/dist/css/bootstrap.css');
 
 const StateList = require('./state_list');
 const SalaryPicker = require('./salary_slider');
+const CategoryPicker = require('./category_picker');
 
 
 const AppWrapper = React.createClass({
@@ -16,6 +17,7 @@ const AppWrapper = React.createClass({
           <StateList />
           <SalaryPicker />
         </form>
+        <CategoryPicker />
       </div>
     </div>);
   }
