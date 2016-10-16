@@ -2,8 +2,10 @@
 
 Team: Howard Martínez, Marcos Antolí, Cristian Garzón, Khalan Jones.
 
+Frameworks: Bootstrap, Play, React
+Libraries: Select2, Chart.js
 
-Instituto de Estadísticas de Puerto Rico - Challenge #2: 
+Puerto Rico Institute of Statistics - Challenge #2: 
 
 - Create a personalized Cost Of Living Index calculator
 The Puerto Rico Institute of Statistics gathers data that allows the San Juan Metro Area
@@ -18,3 +20,4 @@ circumstances. In this challenge, teams will develop a COLI calculator that allo
 individuals to select which of the 57 categories are relevant to their circumstances, the
 app will calculate the resulting COLI index and allow the user to determine their
 comparable salary in one of the other almost 300 regions where COLI is calculated.
+
