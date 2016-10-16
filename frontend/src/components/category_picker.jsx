@@ -14,18 +14,44 @@ const Picker = React.createClass({
   makeLiList(list = [], addedList = true) {
     return list.map((item, idx)=> {
       const clickFunc = addedList ? this.makeRemoveHandler(idx) : this.makeAddHandler(idx);
-      return <li onClick={clickFunc} key={idx}>{item}</li>;
+      const classes = 'btn btn-' + (addedList ? 'success' : 'danger');
+      return <div className={classes} onClick={clickFunc} key={idx}>{item}</div>;
     });
   },
   render() {
     return (
-      <div>
-        <div className="col-md-6">
-          Categories to pick
-          <ul>{this.makeLiList(this.state.selectedItems)}</ul>
+      <div className="well">
+        <div className="row">
+          <div className="panel-success panel">
+            <div className="panel-heading">
+              Elementos utilizados
+              <span className="btn btn-xs pull-right element-action">
+                Utilizar todo
+              </span>
+              <span className="btn btn-xs pull-right element-action">
+                No utilizar nada
+              </span>
+            </div>
+            <div className="panel-body">
+              <div>{this.makeLiList(this.state.selectedItems)}</div>
+            </div>
+          </div>
         </div>
-        <div className="col-md-6">
-          <ul>{this.makeLiList(this.state.deSelectedItems, false)}</ul>
+        <div className="row">
+          <div className="panel-danger panel">
+            <div className="panel-heading">
+              Elementos no utilizados
+              <span className="btn btn-xs pull-right element-action">
+                Utilizar todo
+              </span>
+              <span className="btn btn-xs pull-right element-action">
+                No utilizar nada
+              </span>
+            </div>
+            <div className="panel-body">
+              <div>{this.makeLiList(this.state.deSelectedItems, false)}</div>
+            </div>
+          </div>
         </div>
       </div>
     );

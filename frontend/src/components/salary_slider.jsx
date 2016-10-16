@@ -13,16 +13,20 @@ const salarySlider = React.createClass({
     return (
       <div className="form-group">
         <label>Current Salary</label>
-        <input
-          type="number"
-          ref="number"
-          min={min}
-          max={max}
-          step="1000"
-          className="form-control"
-          onChange={this.handleNumChange}
-          defaultValue={this.state.value}
-          placeholder="Current Salary"/>
+        <div className="input-group">
+          <div className="input-group-addon">$</div>
+          <input
+            type="number"
+            ref="number"
+            min={min}
+            max={max}
+            step="1000"
+            className="form-control"
+            onChange={this.handleNumChange}
+            defaultValue={this.state.value}
+            placeholder="Current Salary"/>
+          <div className="input-group-addon">.00</div>
+        </div>
         <input
           type="range"
           min={min}

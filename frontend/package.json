@@ -9,12 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hapi": "^15.1.1",
     "bootstrap": "^3.3.7",
+    "hapi": "^15.1.1",
     "inert": "^4.0.2",
     "react": "^15.3.2",
     "react-redux": "^4.4.5",
     "redux": "^3.6.0",
+    "request": "^2.75.0",
     "select2": "^4.0.3"
   },
   "devDependencies": {
