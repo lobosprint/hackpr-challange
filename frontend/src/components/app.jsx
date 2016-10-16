@@ -10,10 +10,13 @@ const SalaryPicker = require('./salary_slider');
 const AppWrapper = React.createClass({
   render() {
     return (<div className="container-fluid">
-      <form onSubmit={this.handleSubmit}>
-        <StateList />
-        <input type="number" placeholder="Current Salary"/>
-      </form>
+      <div className="col-md-6 col-md-offset-3">
+        <h1>Cost Of living calculator</h1>
+        <form onSubmit={this.handleSubmit}>
+          <StateList />
+          <SalaryPicker />
+        </form>
+      </div>
     </div>);
   }
 });
