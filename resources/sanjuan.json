@@ -1,3 +1,5 @@
-[
-{"ID":"7241980700","STATE":"Puerto Rico","CITY":"San Juan PR"}
-  ]
+{
+  "id":"7241980700",
+  "state":"Puerto Rico",
+  "city":"San Juan PR"
+}
